@@ -26,12 +26,15 @@
 
 img{
     width: 50%;
+    height: 200px;
+    object-fit: cover;
 }
 
 #raccolta{
     display: flex;
     width: 400px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -84,4 +87,8 @@ img{
     position: absolute;
     bottom: 40px;
     left: 40px;
+}
+
+.thumb_active{
+    border: 4px rgb(0, 155, 167) solid;
 }

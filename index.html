@@ -37,8 +37,8 @@
             
             <div id="raccolta">
 
-                <img v-for = "thumbImg in images"
-                src="thumbImg" alt="">
+                <img v-for = "(thumbImg, index) in images"
+                :src="thumbImg.image" alt="" :class = "activeImage === index ? 'thumb_active' : '' ">
                 
             </div>
 
