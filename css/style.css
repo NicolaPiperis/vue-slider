@@ -17,11 +17,22 @@
     position: relative;
 }
 
-img{
+.img_carousel{
     max-width: 100%;
     width: 800px;
     height: 500px;
     object-fit: cover;
+}
+
+img{
+    width: 50%;
+}
+
+#raccolta{
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    justify-content: flex-start
 }
 
 
