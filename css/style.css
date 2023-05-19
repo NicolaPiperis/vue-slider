@@ -32,7 +32,6 @@ img{
     display: flex;
     width: 400px;
     flex-wrap: wrap;
-    justify-content: flex-start
 }
 
 
