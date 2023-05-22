@@ -45,6 +45,9 @@ createApp({
             if(this.activeImage < 0) {
                 this.activeImage = this.images.length - 1
             }
+        },
+        changeImage(index) {
+            this.activeImage = index;
         }
     }
 }).mount("#vue");
